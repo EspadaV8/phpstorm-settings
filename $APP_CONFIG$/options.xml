@@ -1,0 +1,13 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="log.debug.categories" value="" />
+    <property name="evlsprt3.8" value="11" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="1" />
+    <property name="PhpStorm.InitialConfiguration" value="true" />
+    <property name="PhpStorm.multiCaretsEnabled" value="true" />
+    <property name="installation.uid" value="954df8c6-0311-4267-b33a-f7376ebba4ca" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+  </component>
+</application>
