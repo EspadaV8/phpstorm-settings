@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="textfield" value="&lt;!-- $VALUE$ Form Input --&gt;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    {{ Form::label('$NAME$', '$VALUE$', ['class' =&gt; 'col-sm-2 control-label']) }}&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        {{ Form::text('$NAME$', null, ['class' =&gt; 'form-control']) }}&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Form text field" toReformat="false" toShortenFQNames="true">
+  <template name="textfield" value="&lt;!-- $VALUE$ Form Input --&gt;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    {!! Form::label('$NAME$', '$VALUE$', ['class' =&gt; 'col-sm-2 control-label']) !!}&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        {!! Form::text('$NAME$', null, ['class' =&gt; 'form-control']) !!}&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Form text field" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -28,7 +28,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="passwordfield" value="&lt;!-- $VALUE$ Form Input --&gt;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    {{ Form::label('$NAME$', '$VALUE$', ['class' =&gt; 'col-sm-2 control-label']) }}&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        {{ Form::password('$NAME$', ['class' =&gt; 'form-control']) }}&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Form password field" toReformat="false" toShortenFQNames="true">
+  <template name="passwordfield" value="&lt;!-- $VALUE$ Form Input --&gt;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    {!! Form::label('$NAME$', '$VALUE$', ['class' =&gt; 'col-sm-2 control-label']) !!}&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        {!! Form::password('$NAME$', ['class' =&gt; 'form-control']) !!}&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Form password field" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="true" />
     <context>
