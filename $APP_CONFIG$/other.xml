@@ -103,6 +103,7 @@
     <option name="openPaths">
       <list>
         <option value="/Volumes/Workspace/laravel-5" />
+        <option value="/Volumes/Workspace/eloquent-sluggable" />
       </list>
     </option>
     <option name="lastPath" value="/Volumes/Workspace/eloquent-sluggable" />
@@ -154,7 +155,9 @@
     <recent_templates>
       <option name="RECENT_TEMPLATES">
         <value>
-          <list size="0" />
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Eloquent Model" />
+          </list>
         </value>
       </option>
     </recent_templates>
