@@ -116,4 +116,91 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="fo" value="{!! Form::open(['route' =&gt; '$ROUTE$', 'class' =&gt; 'form-horizontal']) !!}" description="Form open" toReformat="true" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="formbutton" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;&#10;        {!! Form::button('$VALUE$', ['type' =&gt; 'submit', 'class' =&gt; 'btn btn-$TYPE$']) !!}&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Form button" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="submit" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="submit" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="deleteform" value="{!! Form::open(['route' =&gt; ['$ROUTE$.destroy', $MODEL$-&gt;id], 'method' =&gt; 'delete']) !!}&#10;&lt;button class=&quot;btn btn-danger&quot; type=&quot;submit&quot;&gt;&#10;    $VALUE$&#10;&lt;/button&gt;&#10;{!! Form::close() !!}" description="Model delete form" toReformat="false" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
