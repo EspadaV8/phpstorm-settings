@@ -890,6 +890,12 @@
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="REGEXP.CHAR_CLASS">
+      <value>
+        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="REGEXP.ESC_CHARACTER">
       <value>
         <option name="FOREGROUND" value="f08d24" />
@@ -913,6 +919,12 @@
     <option name="REGEXP.QUOTE_CHARACTER">
       <value>
         <option name="FOREGROUND" value="f08d24" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="REGEXP.REDUNDANT_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="9396c0" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
