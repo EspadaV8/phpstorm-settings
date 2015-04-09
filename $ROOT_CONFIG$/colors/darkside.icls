@@ -96,21 +96,10 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.GLOBAL_VARIABLE">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
       <value>
         <option name="FOREGROUND" value="dee3ec" />
         <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.LOCAL_VARIABLE">
-      <value>
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="COFFEESCRIPT.PARAMETER">
@@ -225,11 +214,6 @@
         <option name="FOREGROUND" value="f2d42c" />
       </value>
     </option>
-    <option name="CSS.COMMENT">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-      </value>
-    </option>
     <option name="CSS.FUNCTION">
       <value>
         <option name="FOREGROUND" value="f2d42c" />
@@ -266,19 +250,9 @@
         <option name="FOREGROUND" value="dee3ec" />
       </value>
     </option>
-    <option name="CSS.STRING">
-      <value>
-        <option name="FOREGROUND" value="a5c261" />
-      </value>
-    </option>
     <option name="CSS.TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f08d24" />
-      </value>
-    </option>
-    <option name="CSS.URL">
-      <value>
-        <option name="FOREGROUND" value="287bde" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -890,12 +864,6 @@
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
-    <option name="REGEXP.CHAR_CLASS">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="REGEXP.ESC_CHARACTER">
       <value>
         <option name="FOREGROUND" value="f08d24" />
@@ -919,12 +887,6 @@
     <option name="REGEXP.QUOTE_CHARACTER">
       <value>
         <option name="FOREGROUND" value="f08d24" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="REGEXP.REDUNDANT_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="9396c0" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1127,11 +1089,6 @@
       <value>
         <option name="FOREGROUND" value="494b4d" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="XML_ENTITY_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="6d9cbe" />
       </value>
     </option>
     <option name="XML_PROLOGUE">
