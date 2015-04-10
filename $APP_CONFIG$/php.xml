@@ -14,7 +14,9 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.5">
-        <phpinfo path_separator=":" version="5.5.12">
+        <phpinfo php_cli="" path_separator=":" remote_host="127.0.0.1" version="5.5.12">
+          <additional_php_ini />
+          <configuration_file />
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -236,6 +238,7 @@
             <configuration_option name="zlib.output_compression_level" value="-1" />
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
