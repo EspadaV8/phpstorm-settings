@@ -7,5 +7,8 @@
     <toolWindow group="Common Version Control Messages" />
     <toolWindow group="Vcs Messages" />
     <toolWindow group="PHP Debugger" />
+    <toolWindow group="Debugger messages" />
+    <toolWindow group="Behat" />
+    <toolWindow group="JavaScript debugger" />
   </component>
 </application>
