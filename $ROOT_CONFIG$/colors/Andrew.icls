@@ -1,4 +1,4 @@
-<scheme name="Andrew" version="124" parent_scheme="Default">
+<scheme name="Andrew" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.4" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -30,18 +30,11 @@
         <option name="ERROR_STRIPE_COLOR" value="bccff9" />
       </value>
     </option>
-    <option name="ERRORS_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="ff0000" />
-        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="ff" />
-        <option name="ERROR_STRIPE_COLOR" value="ff" />
+        <option name="ERROR_STRIPE_COLOR" value="3763b0" />
       </value>
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
@@ -96,13 +89,6 @@
       <value>
         <option name="EFFECT_COLOR" value="8000" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="WARNING_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="f6ebbc" />
-        <option name="ERROR_STRIPE_COLOR" value="ffff00" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
