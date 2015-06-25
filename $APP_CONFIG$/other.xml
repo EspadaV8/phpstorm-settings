@@ -108,6 +108,11 @@
         <option value="/Volumes/Workspace/ClosureTable" />
       </list>
     </option>
+    <option name="openPaths">
+      <list>
+        <option value="/Volumes/Workspace/Laravel-PGSchema" />
+      </list>
+    </option>
     <option name="lastPath" value="/Volumes/Workspace/Laravel-PGSchema" />
   </component>
   <component name="Registry">
