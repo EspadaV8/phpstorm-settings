@@ -8,8 +8,8 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/local/opt/php55/bin" id="7a59a3bc-1321-4ab3-b979-64b379539cec" name="PHP 5.5" debugger_id="php.debugger.XDebug" />
-      <interpreter home="/usr/local/bin/php" id="322ab13b-6baa-4592-b63e-acf450bdfdc3" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/opt/php55/bin" id="7a59a3bc-1321-4ab3-b979-64b379539cec" name="PHP 5.5" />
+      <interpreter home="/usr/local/bin/php" id="322ab13b-6baa-4592-b63e-acf450bdfdc3" name="PHP 5.6" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
