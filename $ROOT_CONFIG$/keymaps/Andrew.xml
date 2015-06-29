@@ -15,19 +15,19 @@
   <action id="ReplaceInPath" />
   <action id="Rerun" />
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="control alt ENTER" />
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="control alt LEFT" />
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="control alt UP" />
+    <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
   <action id="UML.ApplyCurrentLayout" />
   <action id="UsageView.Rerun" />
