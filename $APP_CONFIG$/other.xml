@@ -125,6 +125,17 @@
       <option name="EFFECT_TYPE" value="0" />
     </pattern>
   </component>
+  <component name="XDebuggerSettings">
+    <data-views />
+    <general />
+    <debuggers>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
+    </debuggers>
+  </component>
   <component name="XPathView.XPathViewPlugin">
     <option name="attributes">
       <TextAttributes>
