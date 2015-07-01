@@ -10,6 +10,7 @@
   <action id="Console.TableResult.Reload" />
   <action id="Diff.PrevChange" />
   <action id="EditorSelectWord" />
+  <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="control F12" />
     <keyboard-shortcut first-keystroke="control R" />
@@ -18,7 +19,11 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt RIGHT" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="control P" />
+  </action>
   <action id="NextTab" />
+  <action id="ParameterInfo" />
   <action id="PreviousTab" />
   <action id="Replace" />
   <action id="SwitchApply">
