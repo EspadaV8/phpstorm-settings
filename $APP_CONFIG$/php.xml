@@ -303,7 +303,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 5.6">
-        <phpinfo debugger="xdebug" debugger_version="2.3.3" path_separator=":" version="5.6.10">
+        <phpinfo path_separator=":" version="5.6.10">
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
