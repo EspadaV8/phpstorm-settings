@@ -1,4 +1,8 @@
 <application>
+  <component name="BaseRefactoringSettings">
+    <option name="SAFE_DELETE_WHEN_DELETE" value="false" />
+    <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
+  </component>
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Default" />
   </component>
@@ -56,6 +60,18 @@
     <option name="KEEP_ITN_PASSWORD" value="false" />
     <option name="EMAIL" value="" />
   </component>
+  <component name="ExternalResourceManagerImpl">
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+  </component>
   <component name="ImportConfiguration">
     <option name="VENDOR" />
     <option name="RELEASE_TAG" />
@@ -68,6 +84,64 @@
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FUNCTION" value="true" />
     <option name="RENAME_SEARCH_NON_CODE_FOR_FUNCTION" value="true" />
     <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="private" />
+    <option name="EXTRACT_FIELD_DEFAULT_VISIBILITY" value="protected" />
+  </component>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Workspace/ClosureTable" />
+        <option value="$USER_HOME$/Workspace/risc-disk-catalog" />
+        <option value="/Volumes/Workspace/Database" />
+        <option value="/Volumes/Workspace/Laravel-PGSchema" />
+        <option value="/Volumes/Workspace/eloquent-versioned" />
+        <option value="/Volumes/Workspace/laravel" />
+        <option value="/Volumes/Workspace/analytics" />
+        <option value="/Volumes/Workspace/eloquent-sluggable" />
+        <option value="/Volumes/Workspace/laravel-5" />
+        <option value="/Volumes/Workspace/document-store" />
+        <option value="$USER_HOME$/Workspace" />
+        <option value="/Volumes/Workspace/elixir" />
+        <option value="/Volumes/Workspace/Laravel-5-Generators-Extended" />
+        <option value="/Volumes/Workspace/ClosureTable" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Workspace/risc-disk-catalog" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Workspace/ClosureTable" />
+  </component>
+  <component name="Registry">
+    <entry key="ide.firstStartup" value="false" />
+  </component>
+  <component name="TemplateSettings">
+    <defaultShortcut shortcut="TAB" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+      <option name="EFFECT_TYPE" value="0" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+      <option name="EFFECT_TYPE" value="0" />
+    </pattern>
+  </component>
+  <component name="XDebuggerSettings">
+    <data-views />
+    <general />
+    <debuggers>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
+    </debuggers>
   </component>
   <component name="XPathView.XPathViewPlugin">
     <option name="attributes">
@@ -85,9 +159,7 @@
     <recent_templates>
       <option name="RECENT_TEMPLATES">
         <value>
-          <list size="1">
-            <item index="0" class="java.lang.String" itemvalue="Eloquent Model" />
-          </list>
+          <list size="0" />
         </value>
       </option>
     </recent_templates>
