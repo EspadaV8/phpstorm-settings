@@ -144,7 +144,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="formbutton" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;&#10;        {!! Form::button('$VALUE$', ['type' =&gt; 'submit', 'class' =&gt; 'btn btn-$TYPE$']) !!}&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Form button" toReformat="false" toShortenFQNames="true">
+  <template name="but" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;&#10;        {!! Form::button('$VALUE$', ['type' =&gt; 'submit', 'class' =&gt; 'btn btn-$TYPE$']) !!}&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Form button" toReformat="false" toShortenFQNames="true">
     <variable name="VALUE" expression="" defaultValue="submit" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="submit" alwaysStopAt="true" />
     <context>
