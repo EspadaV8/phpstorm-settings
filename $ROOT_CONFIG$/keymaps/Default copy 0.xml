@@ -1,44 +1,44 @@
 <keymap version="1" name="Default copy 0" parent="Default for XWin">
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="alt LEFT" />
+    <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="control F4" />
-    <keyboard-shortcut first-keystroke="control W" />
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="Console.TableResult.Reload" />
   <action id="Diff.PrevChange" />
   <action id="EditorSelectWord" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="control F12" />
-    <keyboard-shortcut first-keystroke="control R" />
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
-    <keyboard-shortcut first-keystroke="alt RIGHT" />
+    <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="control P" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="NextTab" />
   <action id="ParameterInfo" />
   <action id="PreviousTab" />
   <action id="Replace" />
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+    <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
 </keymap>
