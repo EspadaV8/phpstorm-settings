@@ -203,7 +203,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="fun" value="$SCOPE$ function $NAME$($PARAMS$)&#10;{&#10;    $CODE$&#10;}" description="function" toReformat="false" toShortenFQNames="true">
+  <template name="fun" value="/**&#10; *&#10; */&#10;$SCOPE$ function $NAME$($PARAMS$)&#10;{&#10;    $CODE$&#10;}" description="function" toReformat="false" toShortenFQNames="true">
     <variable name="SCOPE" expression="" defaultValue="&quot;public&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;FunctionName&quot;" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="&quot;$value = ''&quot;" alwaysStopAt="true" />
