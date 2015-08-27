@@ -116,8 +116,9 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="fo" value="{!! Form::open(['route' =&gt; '$ROUTE$']) !!}" description="Form open" toReformat="true" toShortenFQNames="true">
+  <template name="fo" value="{!! Form::open(['route' =&gt; ['$ROUTE$', $PARAM$]]) !!}" description="Form open" toReformat="true" toShortenFQNames="true">
     <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
