@@ -224,4 +224,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="res" value="Route::resource('$ROUTE$', '$CONTROLLER$Controller');" toReformat="false" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
