@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="EventDispatcher" type="PHP" />
       <mapping ext="stub" type="PHP" />
+      <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
