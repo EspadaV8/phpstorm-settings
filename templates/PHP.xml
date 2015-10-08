@@ -10,4 +10,26 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="id" value="$table-&gt;uuid('id')-&gt;primary()-&gt;default(new Expression('public.gen_random_uuid()'));" description="schema ID column" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Schema::create" value="Schema::create('$NAME$', function (Blueprint $table) {&#10;    $table-&gt;uuid('id')-&gt;primary()-&gt;default(new Expression('public.gen_random_uuid()'));&#10;    $END$&#10;});" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Schema::table" value="Schema::table('$NAME$', function (Blueprint $table) {&#10;    $END$&#10;});" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="timestamped" value="$table-&gt;timestampTz('created_at');&#10;$table-&gt;timestampTz('updated_at');&#10;$table-&gt;timestampTz('deleted_at')-&gt;nullable();" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
