@@ -261,4 +261,13 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="static" value="&lt;!-- $LABEL$ --&gt;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label class=&quot;col-sm-2 control-label&quot;&gt;$LABEL$&lt;/label&gt;&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        &lt;p class=&quot;form-control-static&quot;&gt;$TEXT$&lt;/p&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Static form control" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
